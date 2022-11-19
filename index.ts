@@ -36,3 +36,8 @@ class Character implements Person {
   age: number;
   code: () => string;
 }
+
+function test(person: Person): string {
+  return "Olá" + person.name;
+}
+test(person1);
