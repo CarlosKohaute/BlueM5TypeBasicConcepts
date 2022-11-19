@@ -4,7 +4,8 @@
   "description": "This repository is only to training back-end with Typescript and Nest",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "tsnd --transpile-only index.ts"
   },
   "repository": {
     "type": "git",
